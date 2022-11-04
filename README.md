@@ -3,7 +3,7 @@
 
 ## Project Home Test
 
-* Front-end: Next.js / Styled-components / Apollo-client
+* Front-end: Next.js / Zustand (it's like Redux) with `persist` / React Hooks / Styled-components / Apollo-client 
 * Back-end: Node.js / Graphql / Express
 * Database: MongoDB using Atlas
 
