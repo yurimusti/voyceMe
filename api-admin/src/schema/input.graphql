@@ -1,0 +1,12 @@
+input CreateUserInput {
+    name: String!
+    surname: String!
+    email: String!
+    password: String!
+}
+
+input LoginUserInput {
+    email: String
+    password: String
+    token: String
+}

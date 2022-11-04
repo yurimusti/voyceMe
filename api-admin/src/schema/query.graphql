@@ -1,0 +1,4 @@
+type Query {
+    loginUser(input: LoginUserInput): UserResponse
+    getUser(input: LoginUserInput): UserResponse
+}

@@ -1,0 +1,20 @@
+type Status {
+    status: Int!
+    message: String
+    accessToken: String
+}
+
+type User {
+    _id: String!
+    name: String
+    surname: String
+    email: String
+    createdAt: String
+    updatedAt: String
+    deletedAt: String
+}
+
+type UserResponse {
+    data: User
+    status: Status
+}
